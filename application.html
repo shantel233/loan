@@ -57,7 +57,8 @@
         <div class="container">
             <h2 class="text-center mb-4">Loan Application Form</h2>
             <p class="text-center text-muted mb-5">Fill out the form below to apply for a loan. We'll review your application and get back to you promptly.</p>
-            <form action="submit_application.php" method="POST" class="bg-light p-4 rounded shadow-sm">
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="7ab1e69b-881c-49c2-8a41-28111d2d554a">
                 <div class="form-group">
                     <label for="fullName">Full Name</label>
                     <input type="text" class="form-control" id="fullName" name="fullName" placeholder="Enter your full name" required>
