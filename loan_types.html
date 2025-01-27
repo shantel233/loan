@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midaver Investments</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark py-3">
+        <a class="navbar-brand" href="#"><b>Midaver Investment Kenya Ltd</b></a>
+        <button class="navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation" id="hamburgerBtn">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">How it Works</a></li>
+            <li class="nav-item"><a class="nav-link" href="loan_types.html">Loan Types</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a href="application.html" class="btn btn-warning btn-lg ml-3">Apply Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+        <span class="close-btn" id="closeSidebar">&times;</span>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">How it Works</a></li>
+        <li><a href="loan_types.html">Loan Types</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="application.html">Apply Now</a></li>
+        </ul>
+    </div>
+    
+
+    <section class="hero text-center text-white d-flex align-items-center" style="background-image: url('images/bills.jpg'); background-size: cover; background-position: center;">
+    <div class="container">
+        <h1 class="display-4 font-weight-bold">Quick and Easy Loans Tailored for You</h1>
+        <p class="lead">Get approved within 5 hours for our flexible loan plans.</p>
+        <a href="#applySection" id="heroBtn" class="btn btn-warning btn-lg mt-3">Get Started</a>
+    </div>
+</section>
+
+ <!-- Loan Types Section -->
+ <section class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4"><b>Our Loan Types</b></h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="loan-option">
+                    <i class="fas fa-briefcase fa-3x mb-3"></i>
+                    <h3>Boresha Biashara Loan</h3>
+                    <p>Expand your business with flexible loan options tailored to your growth needs. Perfect for small and medium enterprises.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="loan-option">
+                    <i class="fas fa-clock fa-3x mb-3"></i>
+                    <h3>Quick Weekly Loan</h3>
+                    <p>Short-term loans with fast approval and weekly repayment plans. Ideal for emergencies or bridging cash flow gaps.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="loan-option">
+                    <i class="fas fa-calendar-alt fa-3x mb-3"></i>
+                    <h3>Monthly Quick Loan</h3>
+                    <p>Designed for salaried individuals with a need for quick cash, offering flexible monthly repayment options.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Compare Our Loan Options</h2>
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead class="thead">
+                    <tr>
+                        <th>Feature</th>
+                        <th>Boresha Biashara Loan</th>
+                        <th>Quick Weekly Loan</th>
+                        <th>Monthly Quick Loan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Interest Rate</td>
+                        <td>5% per month</td>
+                        <td>3% per week</td>
+                        <td>4% per month</td>
+                    </tr>
+                    <tr>
+                        <td>Maximum Loan Amount</td>
+                        <td>Ksh 500,000</td>
+                        <td>Ksh 100,000</td>
+                        <td>Ksh 300,000</td>
+                    </tr>
+                    <tr>
+                        <td>Repayment Period</td>
+                        <td>Up to 12 months</td>
+                        <td>Up to 4 weeks</td>
+                        <td>Up to 6 months</td>
+                    </tr>
+                    <tr>
+                        <td>Eligibility</td>
+                        <td>Business Owners</td>
+                        <td>Individuals with steady income</td>
+                        <td>Salaried Individuals</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Success Stories</h2>
+        <div id="successStoriesCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                    <img src="images/success1.jpg" alt="Maria K." class="img-fluid rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
+                    <p>"With the Boresha Biashara Loan, we were able to expand our business and increase sales by 40%. Thank you Midaver!"</p>
+                    <div class="blockquote-footer">- Maria K., Nairobi</div>
+                </div>
+                <div class="carousel-item text-center">
+                    <img src="images/success2.jpg" alt="John D." class="img-fluid rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
+                    <p>"The Quick Weekly Loan helped me cover unexpected expenses. The process was easy and quick!"</p>
+                    <div class="blockquote-footer">- John D., Kisumu</div>
+                </div>
+                <div class="carousel-item text-center">
+                    <img src="images/success3.jpg" alt="Esther W." class="img-fluid rounded-circle mb-3" style="width: 100px; height: 100px; object-fit: cover;">
+                    <p>"Thanks to Midaver, I got the loan I needed to repair my car and keep my business running smoothly."</p>
+                    <div class="blockquote-footer">- Esther W., Mombasa</div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#successStoriesCarousel" role="button" data-slide="prev">
+                <i class="fas fa-chevron-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#successStoriesCarousel" role="button" data-slide="next">
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="cta text-center py-5">
+    <div class="container">
+        <h2 class="display-4">Ready to Get Your Loan?</h2>
+        <p class="lead">Don't wait any longer! Apply now and get your loan approved in hours.</p>
+        <a href="application.html" class="btn btn-warning btn-lg">Apply Now</a>
+    </div>
+</section>
+
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/2547XXXXXXX" target="_blank" class="whatsapp-btn">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+<!-- Footer -->
+<footer class=" text-white"> 
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">How it Works</a></li>
+                    <li><a href="loan_types.html">Loan Types</a></li>
+                    <li><a href="application.html">Apply Now</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Contact Information</h5>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Nairobi Street, Nairobi, Kenya</p>
+                <p><i class="fas fa-phone-alt"></i> +254 700 000 000</p>
+                <p><i class="fas fa-envelope"></i> info@midaver.com</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Follow Us</h5>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+        <div class="text-center">
+            <p>&copy; 2025 Midaver Investment Kenya Ltd. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Sidebar Script -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    // Sidebar toggle script
+    document.getElementById('hamburgerBtn').addEventListener('click', function() {
+        document.getElementById('sidebar').style.left = '0';
+    });
+
+    document.getElementById('closeSidebar').addEventListener('click', function() {
+        document.getElementById('sidebar').style.left = '-250px';
+    });
+</script>
+
+</body>
+</html>

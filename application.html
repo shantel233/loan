@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply Now - Midaver Investments</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- Sidebar Menu -->
+   <div id="sidebar">
+    <span id="closeSidebar">&times;</span>
+    <a href="#">Home</a>
+    <a href="#">How it Works</a>
+    <a href="#">Loan Types</a>
+    <a href="#">Contact</a>
+    <a href="#">Apply Now</a>
+</div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-md navbar-dark py-3">
+    <a class="navbar-brand" href="#"><b>Midaver Investment Kenya Ltd</b></a>
+    <button class="navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation" id="hamburgerBtn">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">How it Works</a></li>
+            <li class="nav-item"><a class="nav-link" href="loan_types.html">Loan Types</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a href="application.html" class="btn btn-warning btn-lg ml-3">Apply Now</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Sidebar -->
+<div id="sidebar">
+    <span class="close-btn" id="closeSidebar">&times;</span>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">How it Works</a></li>
+        <li><a href="loan_types.html">Loan Types</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="application.html">Apply Now</a></li>
+    </ul>
+</div>
+
+
+    <!-- Application Form Section -->
+    <section class="apply-now py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Loan Application Form</h2>
+            <p class="text-center text-muted mb-5">Fill out the form below to apply for a loan. We'll review your application and get back to you promptly.</p>
+            <form action="submit_application.php" method="POST" class="bg-light p-4 rounded shadow-sm">
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" class="form-control" id="fullName" name="fullName" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number" required>
+                </div>
+                <div class="form-group">
+                    <label for="loanAmount">Loan Amount (KES)</label>
+                    <input type="number" class="form-control" id="loanAmount" name="loanAmount" placeholder="Enter the loan amount" required>
+                </div>
+                <div class="form-group">
+                    <label for="loanType">Loan Type</label>
+                    <select class="form-control" id="loanType" name="loanType" required>
+                        <option value="" disabled selected>Select a loan type</option>
+                        <option value="business">Boresha Biashare Loan</option>
+                        <option value="personal">Quick Weekly Loan</option>
+                        <option value="student">Monthly Quick Loan</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="reason">Reason for Loan</label>
+                    <textarea class="form-control" id="reason" name="reason" rows="3" placeholder="Briefly explain why you need this loan" required></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-warning btn-lg">Submit Application</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp Button -->
+<a href="https://wa.me/25401616166" target="_blank" class="whatsapp-btn">
+    <i class="fab fa-whatsapp"></i>
+</a>
+
+   <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">How it Works</a></li>
+                    <li><a href="loan_types.html">Loan Types</a></li>
+                    <li><a href="application.html">Apply Now</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Contact Information</h5>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Nairobi Street, Nairobi, Kenya</p>
+                <p><i class="fas fa-phone-alt"></i> +254 700 000 000</p>
+                <p><i class="fas fa-envelope"></i> info@midaver.com</p>
+            </div>
+            <div class="col-md-4">
+                <h5>Follow Us</h5>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+        <div class="text-center">
+            <p>&copy; 2025 Midaver Investment Kenya Ltd. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+    <!-- Bootstrap JS, Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        // Sidebar toggle script
+        document.getElementById('hamburgerBtn').addEventListener('click', function() {
+            document.getElementById('sidebar').style.left = '0';
+        });
+    
+        document.getElementById('closeSidebar').addEventListener('click', function() {
+            document.getElementById('sidebar').style.left = '-250px';
+        });
+    </script>
+</body>
+</html>
