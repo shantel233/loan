@@ -68,10 +68,11 @@
     left: -250px;
     width: 250px;
     height: 100%;
-    background-color: #003366;
+    background-color: navy;
     transition: left 0.3s ease;
     z-index: 9999;
     padding-top: 60px;
+   
 }
 
 #sidebar ul {
@@ -81,7 +82,7 @@
 
 #sidebar ul li {
     padding: 15px;
-    text-align: center;
+    text-align: left;
 }
 
 #sidebar ul li a {
@@ -169,7 +170,7 @@ footer .social-icons i {
 }
 
 footer .social-icons i:hover {
-    color: #f90;
+    color: #fff;
 }
 table{
     background-color: navy;
@@ -240,11 +241,14 @@ h2 {
     }
 
     .navbar-nav {
-        text-align: left;
+        text-align:center;
     }
 
     .navbar-toggler {
         display: block;
+        position:absolute;
+        top:15px;
+        right:15px;
     }
 
     #sidebar {
@@ -253,5 +257,7 @@ h2 {
  h1{
   font-size:32px;
  }
-
+.footer .social-icons i{
+ font-size:50px;
+}
 }
