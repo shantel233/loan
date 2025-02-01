@@ -1,6 +1,7 @@
  /* General Styles */
  body {
     font-family: 'Arial', sans-serif;
+    font-size:18px;
     margin: 0;
     padding: 0;
     background-color: white;
@@ -218,7 +219,9 @@ h2 {
 .whatsapp-btn:hover {
     transform: translateY(-5px);
 }
-
+footer .fas{
+ color:#fff;
+}
 /* Bounce Animation */
 @keyframes bounce {
     0% { transform: translateY(0); }
@@ -234,7 +237,7 @@ h2 {
 /* Responsive Layout */
 @media (max-width: 768px) {
  body{
-  font-size:18px;
+  font-size:16px;
  }
     .hero {
         height: 60vh;
@@ -248,16 +251,17 @@ h2 {
         display: block;
         position:absolute;
         top:15px;
-        right:15px;
+        right:10px;
     }
 
     #sidebar {
         width: 200px;
     }
  h1{
-  font-size:32px;
+  font-size:28px;
  }
 .footer .social-icons i{
- font-size:50px;
+ font-size:30px;
+ margin: 0 5px;
 }
 }
