@@ -230,4 +230,28 @@ h2 {
 .whatsapp-btn {
     animation: bounce 2s infinite;
 }
+/* Responsive Layout */
+@media (max-width: 768px) {
+ body{
+  font-size:18px;
+ }
+    .hero {
+        height: 60vh;
+    }
 
+    .navbar-nav {
+        text-align: left;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+    #sidebar {
+        width: 200px;
+    }
+ h1{
+  font-size:32px;
+ }
+
+}
